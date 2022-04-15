@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
 import Squad from './components/Squad';
 
 function App() {
   return (
     <div className="App">
-      <h1>Testing</h1>
-      <Squad />
+      <Navbar />
+      {/* <h1>Testing</h1> */}
+      {/* <Squad /> */}
     </div>
   );
 }
