@@ -13,7 +13,7 @@ function Squad() {
 
     return(
         <div>
-            {squad.map(player => <li key={player.id}>{player.name} {player.number} <img src={player.img}></img></li>)}
+            {squad.map(player => <li key={player.id}>{player.name} {player.number} <img src={player.img}></img><img src={player.flag}></img></li>)}
         </div>
     )
 }
