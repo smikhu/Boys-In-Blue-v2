@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Squad from './components/Squad';
@@ -8,9 +7,8 @@ function App() {
     <div className="App">
       <Navbar />
       {/* <h1>Testing</h1> */}
-      {/* <Squad /> */}
+      <Squad />
     </div>
   );
 }
-
 export default App;

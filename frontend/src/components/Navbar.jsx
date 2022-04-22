@@ -1,12 +1,14 @@
 import chelsea from '../images/chelsea.png'
+import '../App.css'
+
 function Navbar() {
     return(
         <div>
-            <nav className="navbar navbar-expand-md navbar-light bg-light">
+            <nav id="navbar" className="navbar navbar-expand-md navbar-light bg-light">
                 <div>
-                    <a href="#" 
+                    <a href="/" 
                         className="navbar-brand mb-0 h1">
-                        <img className="d-inline-block" width="100" height="100" src={chelsea}></img>
+                        <img className="" width="100" height="100" src={chelsea}></img>
                     </a>
                         <span className="h2">CHELSEA F.C.</span>
                 </div>
