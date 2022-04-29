@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/smikhu/boys-in-blue-v2#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "react-router-dom": "^6.3.0"
   }
 }

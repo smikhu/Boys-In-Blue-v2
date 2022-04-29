@@ -1,5 +1,5 @@
 import chelsea from '../images/chelsea.png'
-import '../App.css'
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     return(
@@ -8,7 +8,7 @@ function Navbar() {
                 <div>
                     <a href="/" 
                         className="navbar-brand mb-0 h1">
-                        <img className="" width="100" height="100" src={chelsea}></img>
+                        <img className="" width="100" height="100" alt="chelsea" src={chelsea}></img>
                     </a>
                         <span className="h2">CHELSEA F.C.</span>
                 </div>
@@ -19,17 +19,17 @@ function Navbar() {
 
                 <div className="collapse justify-content-md-end navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                        <li className="nav-item active">
-                            <a className="nav-link active" href="#">HOME</a>
+                        <li className="nav-item ">
+                            <a className="nav-link " href="/">HOME</a>
                         </li>
-                        <li className="nav-item active">
-                            <a className="nav-link" href="#">TEAM</a>
+                        <li className="nav-item ">
+                            <a className="nav-link" href="/squad">SQUAD</a>
                         </li>
-                        <li className="nav-item active">
-                            <a className="nav-link" href="#">TROPHIES</a>
+                        <li className="nav-item ">
+                            <a className="nav-link" href="/trophies">TROPHIES</a>
                         </li>
-                        <li className="nav-item active">
-                            <a className="nav-link" href="#">FIXTURES</a>
+                        <li className="nav-item ">
+                            <a className="nav-link" href="/fixtures">FIXTURES</a>
                         </li>
                     </ul>
                 </div>
