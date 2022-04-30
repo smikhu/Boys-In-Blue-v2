@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Squad from './components/Squad';
 
 function App() {
+
   return (
     <main>
       <Navbar />
