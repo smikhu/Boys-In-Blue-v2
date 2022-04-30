@@ -1,20 +1,23 @@
+* {
+    font-family: 'Barlow Condensed', sans-serif;
+}
 .card {
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
     border-radius: 10px;
-    /* box-shadow: 2px 3px 15px 3px blue; */
+    box-shadow: 3px 2px 8px 0px #034694;
 }
 
 .card-title {
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
     padding: 5px 0px;
 }
 
 .number {
-    background-color: blue;
+    background-color: #034694;
     color: white;
-    border-radius: 5px;
-    width: 15%;
+    border-radius: 3px;
+    width: 13%;
 }
 
 .card-img-top {
@@ -25,4 +28,8 @@
 .card-img-top:hover {
     transition: 0.3s;
     transform: scale(1.1);
+}
+
+#navbar {
+    font-size: 25px;
 }

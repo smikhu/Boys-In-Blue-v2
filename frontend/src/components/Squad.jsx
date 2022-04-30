@@ -24,13 +24,11 @@ function Squad() {
             <div className="col-xs-5 col-sm-5 col-md-5 col-lg-5 m-2">
 
                 <div className="card text-center">
-                    <h5 className="card-title">{player.name}</h5>
-            
-                        {/* <p className="number">{player.number}</p> */}
-                    <img className="card-img-top" src={player.img} alt="players" />
+                    <h5 className="card-title">{player.name} <span className="m-2"><img className="float-start" src={player.flag} alt="country flag" /></span></h5>
+                    <p className="number">#{player.number}</p>
+                    <img className="card-img-top" src={player.img} alt="player" />
                     <div className="card-body">
-                        <p className="card-text">{player.position}</p>
-                        <img src={player.flag} alt="flags" />
+                        <p className="card-text h5">{player.position}</p>
                     </div>
                 </div>
 
