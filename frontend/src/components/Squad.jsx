@@ -28,7 +28,7 @@ function Squad() {
                     <p className="number">#{player.number}</p>
                     <img className="card-img-top" src={player.img} alt="player" />
                     <div className="card-body">
-                        <p className="card-text h5">{player.position}</p>
+                        <p className="card-text h6">{player.position}</p>
                     </div>
                 </div>
 
