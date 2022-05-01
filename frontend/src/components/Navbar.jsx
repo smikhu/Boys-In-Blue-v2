@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 function Navbar() {
     return(
         <div>
-            <nav id="navbar" className="navbar navbar-expand-md navbar-light bg-light">
+            <nav id="navbar" className="navbar navbar-expand-md navbar-light bg-light fw-bold">
                 <div>
                     <a href="/" 
                         className="navbar-brand mb-0 h1">
                         <img className="" width="100" height="100" alt="chelsea" src={chelsea}></img>
                     </a>
-                        <span className="h2">CHELSEA F.C.</span>
+                        <span className="h2 fw-bold">CHELSEA F.C.</span>
                 </div>
 
                 <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Navigation toggle" className="navbar-toggler">

@@ -1,10 +1,12 @@
 * {
     font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
 }
 .card {
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-    border-radius: 10px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 5px;
     box-shadow: 3px 2px 8px 0px #034694;
 }
 

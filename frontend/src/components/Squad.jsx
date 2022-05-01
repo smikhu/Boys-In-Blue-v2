@@ -21,14 +21,14 @@ function Squad() {
             <div className="row justify-content-center">
 
             
-            <div className="col-xs-5 col-sm-5 col-md-5 col-lg-5 m-2">
+            <div className="col-xs-5 col-sm-5 col-md-5 col-lg-5 m-3">
 
                 <div className="card text-center">
-                    <h5 className="card-title">{player.name} <span className="m-2"><img className="float-start" src={player.flag} alt="country flag" /></span></h5>
+                    <h5 className="card-title fw-bold">{player.name} <span className="m-2"><img className="float-start" src={player.flag} alt="country flag" /></span></h5>
                     <p className="number">#{player.number}</p>
                     <img className="card-img-top" src={player.img} alt="player" />
                     <div className="card-body">
-                        <p className="card-text h6">{player.position}</p>
+                        <p className="card-text fw-bold h6">{player.position}</p>
                     </div>
                 </div>
 
